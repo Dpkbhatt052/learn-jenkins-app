@@ -7,7 +7,7 @@ pipeline {
                 sh '''
                    ls -la
                    touch dpk.txt
-                   tocuh raman.txt
+                   touch raman.txt
                    '''
             }
             
