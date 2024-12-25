@@ -2,12 +2,6 @@ pipeline {
     agent any
 
     stages {
-
-        stage('Checkout') {
-            steps {
-                git 'https://github.com/Dpkbhatt052/learn-jenkins-app.git'
-            }
-        }
         
         stage('W/o Docker') {
             steps {
