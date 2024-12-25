@@ -20,10 +20,8 @@ pipeline {
             }
             steps {
                 sh '''
-                node --version
-                npm --version
-                npm run build
                 ls -la
+                test -f dpk.txt
                 '''
             
             }
