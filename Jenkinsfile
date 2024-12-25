@@ -9,7 +9,6 @@ pipeline {
                    ls -la
                    touch dpk.txt
                    touch d.txt
-                   touch ram.txt
                    '''
             }
             
