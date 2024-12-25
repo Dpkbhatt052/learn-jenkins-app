@@ -7,6 +7,7 @@ pipeline {
                 sh '''
                    ls -la
                    touch dpk.txt
+                   touch d.txt
                    '''
             }
             
