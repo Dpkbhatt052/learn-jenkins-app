@@ -20,7 +20,6 @@ pipeline {
             }
             steps {
                 sh '''
-                npm install
                 ls -la
                 test -f dpk.txt
                 npm test
